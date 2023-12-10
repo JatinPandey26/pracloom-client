@@ -1,0 +1,43 @@
+.platform-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 6vh;
+  background-color: var(--platform-bar-color);
+
+  .left {
+    h1 {
+      font-size: 1.7rem;
+      margin: 0;
+    }
+  }
+
+}
+
+.platform-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0.5rem;
+  height: 94vh;
+  background-color: var(--platform-bar-color);
+  width: fit-content;
+
+  .icons {
+    background-color: inherit;
+
+    &.active {
+      background-color: var(--pastel-blue);
+      color: #333333;
+    }
+  }
+}
+
+.platform-main {
+  height: 100%;
+  width: 97vw;
+  background-color: white;
+  border-radius: 1rem;
+
+}
